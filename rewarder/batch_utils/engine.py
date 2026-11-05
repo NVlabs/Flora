@@ -133,6 +133,8 @@ def load_llm(
         gdn_prefill_backend="triton",
         enable_prefix_caching=True,
         seed=args.seed,
+        # Imported in every vLLM worker: drops the checkpoint's empty _extra_state entries.
+        worker_extension_cls=f"{__package__}.vllm_compat.DropEmptyExtraState",
         **engine_kwargs,
     )
 
