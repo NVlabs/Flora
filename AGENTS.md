@@ -95,9 +95,8 @@ Profiles: `human` (one egocentric camera), `yam` (parallel grippers), `dex` (dex
 - Never change prompts, frame sampling, image sizes, decoding settings or the pinned revisions in `models.json`.
   The models were trained and evaluated with them; other values give worse results without any error.
 - Never commit videos, outputs, weights or tokens. Never put a Hugging Face token in code or command lines.
-- Non-commercial research and evaluation only: the code and the weights are under the NVIDIA License, a
-  research license (`LICENSE` here, `LICENSE.pdf` in each model repository). Outputs are annotations, not
-  robot controls.
+- The code and the weights are under the Apache License 2.0 (see `LICENSE` here and in each model repository).
+  Outputs are annotations, not robot controls.
 
 ## Troubleshooting
 

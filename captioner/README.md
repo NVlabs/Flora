@@ -20,7 +20,7 @@ Flora-captioner-27B generates one action instruction for a supplied target inter
 This model is for research and development only.
 
 ### License/Terms of Use:
-Use of this model is governed by the [NVIDIA License](LICENSE.pdf), a research license that permits non-commercial research and evaluation use only.<br>
+GOVERNING DOWNLOAD TERMS: Use of the model is governed by the [Apache 2.0](LICENSE).<br>
 This model has been post-trained on `Qwen/Qwen3.5-27B`, revision `fc05daec18b0a78c049392ed2e771dde82bdf654`. The Qwen base model is licensed under [Apache License 2.0](https://huggingface.co/Qwen/Qwen3.5-27B/blob/fc05daec18b0a78c049392ed2e771dde82bdf654/LICENSE).<br>
 You are responsible for ensuring that your use of NVIDIA provided models complies with all applicable laws. <br>
 
