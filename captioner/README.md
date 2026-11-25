@@ -20,7 +20,7 @@ Flora-captioner-27B generates one action instruction for a supplied target inter
 This model is for research and development only.
 
 ### License/Terms of Use:
-GOVERNING DOWNLOAD TERMS: Use of the model is governed by the [Apache 2.0](LICENSE).<br>
+**GOVERNING DOWNLOAD TERMS:** Use of the model is governed by the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).<br>
 This model has been post-trained on `Qwen/Qwen3.5-27B`, revision `fc05daec18b0a78c049392ed2e771dde82bdf654`. The Qwen base model is licensed under [Apache License 2.0](https://huggingface.co/Qwen/Qwen3.5-27B/blob/fc05daec18b0a78c049392ed2e771dde82bdf654/LICENSE).<br>
 You are responsible for ensuring that your use of NVIDIA provided models complies with all applicable laws. <br>
 
@@ -36,7 +36,7 @@ Developers: Prototyping and evaluating data curation, filtering, and monitoring 
 
 ### Intended Use
 
-Flora is intended for non-commercial robotics research and development only, including annotating robot and human demonstration videos. Flora is not intended or supported for commercial or production use. Flora outputs are annotations. It is not intended to directly control robots or to serve as the sole safety monitor for a physical system.
+Flora is intended for robotics research and development only, including annotating robot and human demonstration videos. Flora is not intended or supported for production use. Flora outputs are annotations. It is not intended to directly control robots or to serve as the sole safety monitor for a physical system.
 
 ## References(s):
 * GR00T Website: [NVIDIA Isaac GR00T](https://developer.nvidia.com/isaac/gr00t)
