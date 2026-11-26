@@ -263,7 +263,7 @@ environments, check inputs without a GPU, run each model and read the JSON it wr
 
 ## Intended use
 
-Flora is for non-commercial research and evaluation only. Its outputs are annotations: do not use them to
+Its outputs are annotations: do not use them to
 control a robot or as the only safety monitor of a physical system. Instructions are in English. Check the
 rewards on held-out episodes from your own robot before training on them.
 
@@ -282,8 +282,7 @@ rewards on held-out episodes from your own robot before training on them.
 
 ## License
 
-This repository is released under the [NVIDIA License](LICENSE), a research license that permits
-non-commercial research and evaluation use only. The model weights on Hugging Face come with the same
-license (`LICENSE.pdf` in each model repository). Third-party dependencies keep their own licenses; see the
+This repository and the model weights on Hugging Face are released under the [Apache License 2.0](LICENSE).
+Third-party dependencies keep their own licenses; see the
 notices for [annotation](captioner/batch_utils/THIRD_PARTY_NOTICES.md) and the
 [Rewarder](rewarder/batch_utils/THIRD_PARTY_NOTICES.md).
