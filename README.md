@@ -263,7 +263,7 @@ environments, check inputs without a GPU, run each model and read the JSON it wr
 
 ## Intended use
 
-Flora is for non-commercial research and evaluation only. Its outputs are annotations: do not use them to
+Its outputs are annotations: do not use them to
 control a robot or as the only safety monitor of a physical system. Instructions are in English. Check the
 rewards on held-out episodes from your own robot before training on them.
 
